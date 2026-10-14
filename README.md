@@ -123,7 +123,7 @@ cd 100X-Ethical-
 ```bash
 sh install.sh
 ```
-Important: After installation, do not launch the tool immediately. First, **clear**the Termux terminal using the "clear" command, then launch the tool. This keeps the terminal clean and readable.
+Important: After installation, do not launch the tool immediately. First, **clear** the Termux terminal using the "clear" command, then launch the tool. This keeps the terminal clean and readable.
 ```bash
 python "Security 100.py"
 ```
