@@ -2,10 +2,8 @@
 
 A single-file, standard-library-only Python toolkit of 100 defensive security utilities for
 **authorized** testing and learning. Built for Android **Termux** on low-resource phones, with
-Linux as a secondary target. No root, no third-party packages, nothing written to disk unless
-you export a report.
-
-Files: `main.py` (everything), `install.sh` (environment check), `README.md`.
+Linux as a secondary target. No root, no third-party package
+ 
 
 ## Overview and feature categories
 
