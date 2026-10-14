@@ -135,10 +135,11 @@ Install
 pkg update && pkg install python git
 ```
 ```bash
-git clone 
+git clone https://github.com/UG-ALOK/100X-Ethical-.git
 ```
 ```bash
-cd 
+cd 100X-Ethical-
+```
 ```bash
 sh install.sh
 ```
