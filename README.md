@@ -40,25 +40,7 @@ checks are `SKIPPED`, and failures to connect are `ERROR`.
 ## Compatibility
 
 Python 3.8+ (standard library only). Intended for Termux on Android and Linux. Works without
-root. Windows is not a target (permission-bit checks are skipped there).
-
-## Installation and execution
-
-```sh
-# Termux
-pkg update && pkg install python
-sh install.sh          # checks Python/modules, runs the registry self-check; installs nothing else
-python main.py
-
-# Linux
-sh install.sh && python3 main.py
-```
-
-`install.sh` never asks for root. On Termux it offers `pkg install python` only if Python is
-missing; on Linux it prints the command instead of running it.
-
-## Usage examples
-
+root. Windows is not a target (permission-bit checks are skipped th
 ```sh
 python main.py                         # interactive menu (s = search, t = settings, l = lab, q = quit)
 python main.py --list                  # list all 100 features
